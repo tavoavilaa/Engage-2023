@@ -1,0 +1,47 @@
+.main{
+    background-color: var(--gray);
+    font-family: var(--font-main);
+    font-size: 15px;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    width: 100vw;
+}
+
+.section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    scroll-snap-align: start;
+    overflow-x: hidden;
+}
+
+.sectionRed{
+    background-color: #fcdfe3;
+    background-image: url(https://images.news.avaya.com/EloquaImages/clients/AvayaInc/%7B031e55e4-9be3-4f07-b96c-8fe85582e732%7D_home-bg.jpg);
+    background-size: cover;
+}
+
+.sectionTeal{
+    background-color: var(--teal);
+}
+
+.sectionYellow{
+    background-color: #f4e4c8;
+}
+
+.sectionOcean{
+    background-color: var(--ocean);
+}
+.sectionDenim{
+    background-color: var(--denim);
+}
+
+.sectionGray{
+    background-color: #dedede;
+    background-image: url('https://images.news.avaya.com/EloquaImages/clients/AvayaInc/%7B4a4ff050-e890-4da8-8715-2e782992db85%7D_speakers-bg.jpg');
+    background-size: cover;
+}
+

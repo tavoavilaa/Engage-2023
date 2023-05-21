@@ -1,0 +1,8 @@
+
+.my-dropdown{
+    position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 42px);
+}
+
+.navbarLogo{
+    max-width: 250px;
+}
